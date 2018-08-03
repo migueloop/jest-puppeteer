@@ -1,13 +1,26 @@
 # jest-puppeteer
-> Tutorial: User Interface Testing with Jest and Puppeteer
+> Jest + Puppeteer Scaffolding project for UI and API testing
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
-
-## Test
+## Test all
 
 ```bash
 npm i && npm test
 ```
+
+## Test only api
+
+```bash
+npm test -- api
+```
+## Test only web
+
+```bash
+npm test -- wev
+```
+
+## Add more config
+
+To add more tests please add it in config/jest and modify jest.config.js
 
 ## License
 
