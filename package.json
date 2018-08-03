@@ -1,0 +1,31 @@
+{
+  "name": "jest-puppeteer",
+  "version": "1.0.0",
+  "description": "UI and API Testing with Jest and Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migueloop/jest-puppeteer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migueloop/jest-puppeteer/issues"
+  },
+  "homepage": "https://github.com/migueloop/jest-puppeteer#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "faker": "^4.1.0",
+    "jest": "^23.4.2",
+    "puppeteer": "^1.6.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
